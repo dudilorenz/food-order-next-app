@@ -51,3 +51,29 @@ p a:active {
   color: #bd3df4;
   border-color: #bd3df4;
 }
+
+
+.cta {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.cta a:hover,
+.cta a:active {
+  color: #ffffff;
+  background: linear-gradient(90deg, #fd4715, #f9b241);
+  text-decoration: none;
+}
